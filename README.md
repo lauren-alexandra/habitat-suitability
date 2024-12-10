@@ -1,10 +1,7 @@
-# habitat-suitability
+# Habitat Suitability: *Quercus douglasii*
 
 [![DOI](https://zenodo.org/badge/888758727.svg)](https://doi.org/10.5281/zenodo.14190187)
 
----
-
-## *Quercus douglasii*
 
 <img src="images/blue-oak-woodland.png" alt="Blue oak woodland" width="760" height="500" longdesc="https://calscape.org/storage/app/species_images/calphotos/images/0000_0000_0113_0949.jpeg" />
 
@@ -54,3 +51,34 @@ Rudiger, P., Liquet, M., Signell, J., Hansen, S. H., Bednar, J. A., Madsen, M. S
 Snow, A. D., Scott, R., Raspaud, M., Brochart, D., Kouzoubov, K., Henderson, S., … Weidenholzer, L. (2024). *corteva/rioxarray: 0.18.1 Release* (Version 0.18.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.4570456
 
 The pandas development team. (2024). *pandas-dev/pandas: Pandas* (Version 2.2.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.3509134
+
+
+Run locally
+----
+
+### Download/Clone Git Repository
+
+    $cd <replace with desired location of project folder>
+    $git clone https://github.com/lauren-alexandra/habitat-suitability.git
+    $cd habitat-suitability
+
+### Create Environment
+
+    $conda create -n myenv
+    $conda activate myenv
+
+### Install required packages
+
+    $conda install pip
+    $pip install -r requirements.txt
+
+### Set up Jupyter Notebook Kernel
+
+    $pip install --user ipykernel
+    $python -m ipykernel install --user --name=myenv
+
+### Launch Jupyter Notebook
+
+    (in git bash or other conda environment)
+    $jupyter notebook
+
