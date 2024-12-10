@@ -9,11 +9,15 @@
 <img src="images/blue-oak-woodland.png" alt="Blue oak woodland" width="760" height="500" longdesc="https://calscape.org/storage/app/species_images/calphotos/images/0000_0000_0113_0949.jpeg" />
 
 
-#### Overview
+#### Introduction
 
 #### Data Description
 
+The [SRTM 1 Arc-Second Global](https://doi.org/10.5066/F7PR7TFT) product offers global coverage of void filled elevation data at a resolution of 1 arc-second (30 meters). The Shuttle Radar Topography Mission (SRTM) was flown aboard the space shuttle Endeavour February 11-22, 2000.
+
 #### Data Citation
+
+NASA. (2024). *SRTM 1 Arc-Second Global* [Data set]. https://doi.org/10.5066/F7PR7TFT
 
 #### Methods
 
