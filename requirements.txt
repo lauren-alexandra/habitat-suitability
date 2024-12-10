@@ -1,0 +1,8 @@
+python==3.11.10
+pandas==2.2.3
+geopandas==1.0.1
+rioxarray==0.17.0
+xrspatial==0.4.0
+matplotlib==3.9.2
+hvplot==0.11.1
+earthaccess==0.11.0
