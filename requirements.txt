@@ -1,5 +1,6 @@
 python==3.11.10
 pandas==2.2.3
+numpy==2.0.2
 geopandas==1.0.1
 rioxarray==0.17.0
 xarray==2024.9.0
