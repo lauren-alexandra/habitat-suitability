@@ -1,5 +1,6 @@
 # Project
 data/
+datasets/
 
 # Mac
 .DS_Store
